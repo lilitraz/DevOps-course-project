@@ -1,0 +1,21 @@
+
+---
+
+
+- hosts: 192.168.1.213
+  become: yes
+  vars:
+    ansible_ssh_pass: rootroot
+
+  tasks:
+    - name: create directory named "lilitraz"
+      file:
+        path: /home/lilit/Desktop/Project/lilitraz
+        state: directory
+        mode: '0777'
+
+    - name: Install Paramiko using pip
+      pip:
+        name: paramiko
+        executable: pip3
+        state: latest
