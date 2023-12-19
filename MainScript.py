@@ -8,7 +8,7 @@ Menu:
 1. Discover all IPs in network with Nmap
 2. Install full packages on this machine
 3. Install Jenkins Master on a remote machine
-4. Create Ansible-Playbook and run it  
+4. Run Ansible-Playbook  
 """)
 
 if choice == "1":
