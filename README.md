@@ -2,10 +2,7 @@
 
 My final project on DevOps course. Including working with sshpass, Docker, AWS EC2, boto3, Ansible and more.
 
-## Table of Contents
 
-- [Installation](#installation)
-- [DockerFile](#dockerfile)
 
 ## Installation
 
@@ -17,6 +14,14 @@ Requirements for local installation:
 
 
 
-## DockerFile
+## What should I do?
 
-Coming soon!
+The project has two main Scripts:
+1. [MainScript.py](MainScript.py): Working with various actions from DevOps world
+2. [AWSScript.sh](AWSScript.sh): Working with AWS EC2 and boto3
+
+The other scripts are executed from the main scripts, depending on your choices.
+
+You can choose each one of the main scripts and start exploring the menus.
+
+Enjoy!
