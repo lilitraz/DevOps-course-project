@@ -11,7 +11,7 @@ Requirements for local installation:
 - Internet connection
 - An active AWS account
 - Run requirements: [Requirements.txt](requirements.txt)
-- Extra packeges for runnung the scripts:
+- Extra packeges needed for running scripts:
   - python3
   - pip3
   - nmap
