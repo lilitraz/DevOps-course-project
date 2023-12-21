@@ -2,15 +2,15 @@
 ---
 
 
-- hosts: 192.168.1.213
+- hosts: localhost
   become: yes
   vars:
-    ansible_ssh_pass: rootroot
+    ansible_ssh_pass:
 
   tasks:
-    - name: create directory named "lilitraz"
+    - name: create directory named "thenewone"
       file:
-        path: /home/lilit/Desktop/Project/lilitraz
+        path: /home/lilit/Desktop/Project/thenewone
         state: directory
         mode: '0777'
 
