@@ -10,13 +10,12 @@ Requirements for local installation:
 - Two Ubuntu (20.04) machines with functioning SSH connection
 - Internet connection
 - An active AWS account
+- Run requirements: [Requirements.txt](requirements.txt)
 - Extra packeges for runnung the scripts:
   - python3
   - pip3
   - nmap
   - curl
-- Run requirements: [View Requirements.txt](requirements.txt)
-
 
 
 ## What should I do?
