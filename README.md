@@ -13,7 +13,7 @@ Requirements for local installation:
 - Run requirements: [Requirements.txt](requirements.txt)
 - Extra packeges needed for running scripts:
   - python3
-  - pip3
+  - pip
   - nmap
   - curl
 
