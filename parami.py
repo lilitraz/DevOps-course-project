@@ -5,15 +5,15 @@ import paramiko
 import sys
 
 nbyts = 4096
-hostname = '193.168.1.1'
+hostname = input("insert IP: ")
 port = 22
-username = 'lilit'
-password = 'rootroot'
+username = input("insert username: ")
+password = input("password: ")
 command = '''
 sudo apt-get update -y
-echo "192.168.1 213 ubuntu_left" >> /etc/hosts
-mkdir /home/lilit/Desktop/Project/new
-cd /home/lilit/Desktop/Project/new
+echo hostname + "paramiko" >> /etc/hosts
+mkdir /home/username/Desktop/Project/new
+cd /home/username/Desktop/Project/new
 touch newfile.txt
 echo "hello world" > newfile.txt'''
 
